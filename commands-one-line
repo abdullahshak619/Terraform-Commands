@@ -2,3 +2,4 @@
 terfform fmt
 terraform state list
 terraform destroy --target=aws_instance.my_instance
+terraform refresh
