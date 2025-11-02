@@ -2,4 +2,7 @@
 terfform fmt
 terraform state list
 terraform destroy --target=aws_instance.my_instance
-terraform refresh
+terraform refresh  --older version 
+new way
+terraform apply -refresh-only
+
